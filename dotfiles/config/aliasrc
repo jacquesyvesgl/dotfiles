@@ -1,0 +1,26 @@
+# !/bin/sh
+
+alias \
+   apins="sudo apt install" \
+   pacins="sudo pacman -S" \
+   aprem="sudo apt remove --purge" \
+   pacrem="sudo pacman -Rns" \
+   autorem="sudo apt autoremove" \
+   cp="cp -iv" \
+   ds="conda activate ds" \
+   dotdrop="~/.dotfiles/dotdrop.sh --cfg=~/.dotfiles/config.yaml" \
+   ealias="vi ~/.config/aliasrc" \
+   g="git" \
+   ll="ls -lshF" \
+   la="ls -lhAF" \
+   ls="ls --color=auto" \
+   mkd="mkdir -pv" \
+   mv="mv -iv" \
+   myip="curl ipinfo.io/ip" \
+   reload="source ~/.zshrc" \
+   rm="rm -v" \
+   untar="tar -zxvf" \
+   update="sudo apt update" \
+   upgrade="sudo apt upgrade" \
+   vi="nvim" \
+

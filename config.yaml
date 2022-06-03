@@ -3,4 +3,22 @@ config:
   create: true
   dotpath: dotfiles
 dotfiles:
+  f_zshrc:
+    src: zshrc
+    dst: ~/.zshrc
+  f_aliasrc:
+    src: config/aliasrc
+    dst: ~/.config/aliasrc
+  f_pathrc:
+    src: config/pathrc
+    dst: ~/.config/pathrc
+  f_init.vim:
+    src: config/nvim/init.vim
+    dst: ~/.config/nvim/init.vim
 profiles:
+  jacquesyves-pc:
+    dotfiles:
+    - f_zshrc
+    - f_aliasrc
+    - f_pathrc
+    - f_init.vim
