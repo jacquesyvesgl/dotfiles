@@ -15,6 +15,9 @@ dotfiles:
   f_init.vim:
     src: config/nvim/init.vim
     dst: ~/.config/nvim/init.vim
+  f_librewolf.overrides.cfg:
+    src: librewolf/librewolf.overrides.cfg
+    dst: ~/.librewolf/librewolf.overrides.cfg
 profiles:
   jacquesyves-pc:
     dotfiles:
@@ -22,3 +25,4 @@ profiles:
     - f_aliasrc
     - f_pathrc
     - f_init.vim
+    - f_librewolf.overrides.cfg
