@@ -18,6 +18,30 @@ dotfiles:
   f_librewolf.overrides.cfg:
     src: librewolf/librewolf.overrides.cfg
     dst: ~/.librewolf/librewolf.overrides.cfg
+  f_plasmarc:
+    src: config/plasmarc
+    dst: ~/.config/plasmarc
+    chmod: '600'
+  f_khotkeysrc:
+    src: config/khotkeysrc
+    dst: ~/.config/khotkeysrc
+    chmod: '755'
+  f_kglobalshortcutsrc:
+    src: config/kglobalshortcutsrc
+    dst: ~/.config/kglobalshortcutsrc
+    chmod: '755'
+  f_kwinrc:
+    src: config/kwinrc
+    dst: ~/.config/kwinrc
+    chmod: '755'
+  f_kdeglobals:
+    src: config/kdeglobals
+    dst: ~/.config/kdeglobals
+    chmod: '755'
+  f_kxkbrc:
+    src: config/kxkbrc
+    dst: ~/.config/kxkbrc
+    chmod: '755'
 profiles:
   jacquesyves-pc:
     dotfiles:
@@ -26,3 +50,9 @@ profiles:
     - f_pathrc
     - f_init.vim
     - f_librewolf.overrides.cfg
+    - f_plasmarc
+    - f_khotkeysrc
+    - f_kglobalshortcutsrc
+    - f_kwinrc
+    - f_kdeglobals
+    - f_kxkbrc
