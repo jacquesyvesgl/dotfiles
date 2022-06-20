@@ -3,6 +3,13 @@
 export PATH=/usr/local/texlive/2021/bin/x86_64-linux:$PATH
 export PATH=/home/jy/.local/bin:$PATH
 
+if [ -n "$DESKTOP_SESSION" ];then
+    # eval $(gnome-keyring-daemon --start &> /dev/null) 
+    eval $(gnome-keyring-daemon --start 2> /dev/null) 
+    # eval $(gnome-keyring-daemon --start)
+    export SSH_AUTH_SOCK
+fi
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/jy/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
