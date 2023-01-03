@@ -6,6 +6,7 @@ alias \
    aprem="sudo apt remove --purge" \
    pacrem="sudo pacman -Rns" \
    autorem="sudo apt autoremove" \
+   condainit="source ~/.config/condainit"\
    cp="cp -iv" \
    ds="conda activate ds" \
    dotdrop="~/.dotfiles/dotdrop.sh --cfg=~/.dotfiles/config.yaml" \
@@ -23,4 +24,3 @@ alias \
    update="sudo apt update" \
    upgrade="sudo apt upgrade" \
    vi="nvim" \
-

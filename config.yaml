@@ -12,24 +12,23 @@ dotfiles:
   f_pathrc:
     src: config/pathrc
     dst: ~/.config/pathrc
-  f_init.vim:
-    src: config/nvim/init.vim
-    dst: ~/.config/nvim/init.vim
   f_librewolf.overrides.cfg:
     src: librewolf/librewolf.overrides.cfg
     dst: ~/.librewolf/librewolf.overrides.cfg
+  d_nvim:
+    src: config/nvim
+    dst: ~/.config/nvim
 profiles:
   jacquesyves-pc:
     dotfiles:
     - f_zshrc
     - f_aliasrc
     - f_pathrc
-    - f_init.vim
     - f_librewolf.overrides.cfg
+    - d_nvim
   jacquesyves-ux430ua:
     dotfiles:
     - f_zshrc
     - f_aliasrc
     - f_pathrc
-    - f_init.vim
     - f_librewolf.overrides.cfg
