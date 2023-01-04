@@ -18,6 +18,9 @@ dotfiles:
   d_nvim:
     src: config/nvim
     dst: ~/.config/nvim
+  f_condainit:
+    src: config/condainit
+    dst: ~/.config/condainit
 profiles:
   jacquesyves-pc:
     dotfiles:
@@ -26,6 +29,7 @@ profiles:
     - f_pathrc
     - f_librewolf.overrides.cfg
     - d_nvim
+    - f_condainit
   jacquesyves-ux430ua:
     dotfiles:
     - f_zshrc
