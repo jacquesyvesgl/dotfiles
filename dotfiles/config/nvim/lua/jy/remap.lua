@@ -27,12 +27,17 @@ keyset("n", "<leader>vs", vim.cmd.vs)
 keyset("n", "<leader>hs", vim.cmd.sp)
 keyset("n", "<leader>wq", "<C-w>q")
 keyset("n", "<leader>wo", "<C-w>o") -- Close all windows but one
+keyset("n", "<leader>wt", "<C-w>T") -- Move the current split window into its own tab
 
 -- Windows resizing
 keyset("n", "<M-Right>", ":vertical resize +1<CR>")
 keyset("n", "<M-Left>", ":vertical resize -1<CR>")
 keyset("n", "<M-Down>", ":resize -1<CR>")
 keyset("n", "<M-Up>", ":resize +1<CR>")
+
+-- Taaaaabs
+keyset("n", "<leader>tn", vim.cmd.tabnew)
+keyset("n", "<leader>tq", vim.cmd.tabc)
 
 -- Buffer navigation
 keyset("n", "<leader>bb", vim.cmd.ls)
