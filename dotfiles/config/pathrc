@@ -1,7 +1,7 @@
 # !/bin/sh
 
-export PATH=/usr/local/texlive/2021/bin/x86_64-linux:$PATH
-export PATH=/home/jy/.local/bin:$PATH
+export PATH=/home/jacquesyves/.local/bin:$PATH
+export PATH=/home/jacquesyves/.local/share/texlive/bin/x86_64-linux:$PATH
 export PATH=/home/jacquesyves/miniconda3/bin:$PATH
 
 if [ -n "$DESKTOP_SESSION" ];then
