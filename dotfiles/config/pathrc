@@ -1,6 +1,6 @@
 # !/bin/sh
 
-export PATH=/usr/local/texlive/2021/bin/x86_64-linux:$PATH
-export PATH=/home/jy/.local/bin:$PATH
+export PATH=/home/jacquesyves/.local/bin:$PATH
+export PATH=/home/jacquesyves/.local/share/texlive/bin/x86_64-linux:$PATH
 export PATH=/home/jacquesyves/miniconda3/bin:$PATH
 export PATH=/usr/local/cuda-12.0/bin${PATH:+:${PATH}}
