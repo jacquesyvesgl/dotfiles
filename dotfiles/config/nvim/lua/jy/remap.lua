@@ -46,5 +46,5 @@ keyset("n", "<leader>bp", vim.cmd.bp)
 keyset("n", "<leader>bd", ":bp<bar>sp<bar>bn<bar>bd<CR>")
 
 -- Terminal
-keyset({"n", "v", "i"}, "<leader>tt", "<ESC>:sp<CR><C-\\><C-N><C-w>j:resize 10 <bar>term<CR>")
+keyset("n", "<leader>tt", "<ESC>:sp<CR><C-\\><C-N><C-w>j:resize 10 <bar>term<CR>")
 keyset("t", "<ESC><ESC>", "<C-\\><C-N>")
