@@ -119,11 +119,6 @@ _G.packer_plugins = {
     path = "/home/jacquesyves/.local/share/nvim/site/pack/packer/start/vim-commentary",
     url = "https://github.com/tpope/vim-commentary"
   },
-  ["vim-sensible"] = {
-    loaded = true,
-    path = "/home/jacquesyves/.local/share/nvim/site/pack/packer/start/vim-sensible",
-    url = "https://github.com/tpope/vim-sensible"
-  },
   ["vim-surround"] = {
     loaded = true,
     path = "/home/jacquesyves/.local/share/nvim/site/pack/packer/start/vim-surround",

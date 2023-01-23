@@ -10,7 +10,8 @@ bindkey -v
 
 # Prompt customization
 # A simple prompt by hand
-PROMPT='%B%(?.%F{green}➜.%F{red}➜)%f  %F{blue}%~%f%b '
+source ~/.zsh-git-prompt/zshrc.sh
+PROMPT='%B%(?.%F{green}➜.%F{red}➜)%f%b $(git_super_status) %B%F{blue}%~%f%b '
 
 
 # Basic auto/tab complete:

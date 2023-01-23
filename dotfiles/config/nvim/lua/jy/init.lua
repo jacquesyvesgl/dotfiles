@@ -1,3 +1,3 @@
 require("jy.remap")
-require("jy.packer")
 require("jy.set")
+require("jy.packer")

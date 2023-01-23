@@ -18,3 +18,4 @@ vim.opt.scrolloff = 8
 vim.opt.wrap = false
 
 vim.opt.updatetime = 50
+
